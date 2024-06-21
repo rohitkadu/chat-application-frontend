@@ -145,7 +145,7 @@ export const data = [
     //4th user
     {
       userId: 'user4',
-      name: 'Jaisia',
+      name: 'Jaisica',
       unreadCount: 3,
       profilePictureURL:
         'https://in.bmscdn.com/iedb/artist/images/website/poster/large/alia-bhatt-21065-1685013962.jpg',

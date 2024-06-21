@@ -2,7 +2,7 @@
 import React from 'react';
 import ContactItem from './ContactItem';
 
-const ContactList = ({ contacts, onSelectContact, onModalAction, selectedUser }) => {
+const ContactList = ({ contacts, onSelectContact, onModalAction, selectedUser,ucc }) => {
   
   return (
     <div className="contact-list">
@@ -13,6 +13,7 @@ const ContactList = ({ contacts, onSelectContact, onModalAction, selectedUser })
           onSelectContact={onSelectContact}
           onModalAction={onModalAction}
           selectedUser={selectedUser}
+          ucc={ucc}
         />
       ))}
     </div>
