@@ -1,4 +1,4 @@
-export const truncateMessage = (message, length = 20) => {
+export const truncateMessage = (message, length = 22) => {
     if (message.length > length) {
       return message.slice(0, length) + '...';
     }

@@ -2,7 +2,8 @@
 import React from 'react';
 import ContactItem from './ContactItem';
 
-const ContactList = ({ contacts, onSelectContact, onModalAction }) => {
+const ContactList = ({ contacts, onSelectContact, onModalAction, selectedUser }) => {
+  
   return (
     <div className="contact-list">
       {contacts.map(contact => (
@@ -11,6 +12,7 @@ const ContactList = ({ contacts, onSelectContact, onModalAction }) => {
           contact={contact} 
           onSelectContact={onSelectContact}
           onModalAction={onModalAction}
+          selectedUser={selectedUser}
         />
       ))}
     </div>

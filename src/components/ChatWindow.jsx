@@ -5,8 +5,9 @@ import ChatHeader from './ChatHeader';
 import ChatInput from './ChatInput';
 
 const ChatWindow = ({ user, chat }) => {
-  console.log(`${user}:`, chat);
-  console.log(user);
+  
+  // console.log(user)
+
   return (
     <div className="chat-window">
       <ChatHeader user={user} />
